@@ -3,6 +3,8 @@
 This is a Nextflow-based ChIP-seq analysis pipeline. The pipeline includes quality control, alignment, peak calling, and differential binding analysis with downstream visualization.
 
 ## 📁 Structure
+
+```
 Chipseq-pipeline/
 ├── main.nf                    # Main Nextflow workflow
 ├── nextflow.config            # Resource and parameter settings
@@ -17,6 +19,8 @@ Chipseq-pipeline/
 ├── qc_reports/                # MultiQC and other HTML reports
 ├── .gitignore
 └── README.md
+```
+
 
 ## 🔁 Workflow Steps
 1. **Quality Control**  
