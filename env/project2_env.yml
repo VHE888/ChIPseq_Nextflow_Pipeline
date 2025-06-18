@@ -1,0 +1,10 @@
+name: project2_env
+channels:
+- conda-forge
+- bioconda 
+
+dependencies:
+- nextflow=24.04.2
+- nf-test=0.8.4
+- fastqc=0.12.1
+- ipykernel=6.29.5

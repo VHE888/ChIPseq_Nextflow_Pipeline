@@ -1,0 +1,9 @@
+name: proj2_ipynb
+channels:
+- conda-forge
+- bioconda
+
+dependencies:
+- pandas=2.2.2
+- seaborn=0.13.2
+- ipykernel=6.29.5
